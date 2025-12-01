@@ -1,4 +1,15 @@
 # Python Lab
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![APIs & HTTP](https://img.shields.io/badge/Tools-APIs_&_HTTP_Requests-2C3E50?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Notebooks-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-Python_Fundamentals_&_Data_Workflows-0A66C2?style=for-the-badge)
+![Architecture](https://img.shields.io/badge/Architecture-8_Structured_Modules-8E44AD?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/danij4ne/python-lab?style=for-the-badge)
+![Commit Activity](https://img.shields.io/github/commit-activity/m/danij4ne/python-lab?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-2ECC71?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-1D8348?style=for-the-badge)
 
 Python Lab is a structured repository designed to consolidate foundational and intermediate Python programming concepts, including control flow, functions, data collections, object-oriented programming, exception handling, file operations, numerical computing with NumPy, tabular data processing with pandas, and HTTP/API workflows.
 Each module contains standalone scripts and exercises that focus on a specific functional area of the Python programming ecosystem.
