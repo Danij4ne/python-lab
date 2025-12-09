@@ -1,4 +1,5 @@
 # Python Lab
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -11,7 +12,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-2ECC71?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-1D8348?style=for-the-badge)
 
-Python Lab is a structured repository designed to consolidate foundational and intermediate Python programming concepts, including control flow, functions, data collections, object-oriented programming, exception handling, file operations, numerical computing with NumPy, tabular data processing with pandas, and HTTP/API workflows.
+Python Lab is a structured repository designed to consolidate foundational and intermediate Python programming concepts, including control flow, functions, data collections, object-oriented programming, exception handling, file operations, numerical computing with NumPy, tabular data processing with pandas,  HTTP/API workflows and local database interaction with SQLite.
 Each module contains standalone scripts and exercises that focus on a specific functional area of the Python programming ecosystem.
 
 ---
@@ -27,6 +28,7 @@ Each module contains standalone scripts and exercises that focus on a specific f
 06_numpy/
 07_pandas/
 08_apis_scraping/
+09_staff_database_lab/
 README.md
 ```
 
@@ -321,6 +323,45 @@ Useful for acquiring external datasets and integrating API-based sources into br
 ### Module Summary
 
 Encapsulates API-based extraction, preliminary scraping patterns, and auxiliary datasets used in interactive notebooks.
+
+---
+
+
+
+## 09 — Staff Database Lab (SQLite + Pandas)
+
+This module introduces local database access using Python’s built-in **sqlite3** engine and pandas’ SQL integration features.
+It simulates a small data-engineering workflow involving ingestion, table creation, querying, and record insertion inside a lightweight relational system.
+
+### Purpose
+
+To provide hands-on experience with database connectivity, SQL execution inside Python scripts, and CSV-to-database ingestion workflows commonly used in ETL pipelines.
+
+### Concepts Addressed
+
+- SQLite fundamentals (connection, table creation, file-based DB behavior)
+- Reading CSV files into pandas DataFrames
+- Writing DataFrames into SQL tables using `to_sql()`
+- Running SQL queries using `pandas.read_sql()`
+- Performing insert operations through append
+- Counting records and validating incremental updates
+
+### Practical Use
+
+This module reflects real-world Data Engineering responsibilities such as extracting structured data, loading it into a relational system, and verifying transformations via SQL.
+
+### Exercises & Script
+
+```
+09_staff_database_lab/
+│
+├── INSTRUCTOR.csv
+└── lab_staff_database.py
+```
+
+### Module Summary
+
+Provides a complete mini-ETL workflow using SQLite as the storage layer and pandas as the querying interface — an essential foundation for real data-engineering pipelines.
 
 ---
 
