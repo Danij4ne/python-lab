@@ -28,7 +28,7 @@ Each module contains standalone scripts and exercises that focus on a specific f
 06_numpy/
 07_pandas/
 08_apis_scraping/
-09_staff_database_lab/
+09_sql_and_databases/
 README.md
 ```
 
@@ -328,40 +328,59 @@ Encapsulates API-based extraction, preliminary scraping patterns, and auxiliary 
 
 
 
-## 09 — Staff Database Lab (SQLite + Pandas)
+## 09 — SQL and Databases (SQLite + pandas + Jupyter)
 
-This module introduces local database access using Python’s built-in **sqlite3** engine and pandas’ SQL integration features.
-It simulates a small data-engineering workflow involving ingestion, table creation, querying, and record insertion inside a lightweight relational system.
+This module covers the integration of Python with relational databases using SQLite, pandas, and Jupyter notebooks.  
+It reflects real data-engineering and analytics workflows, from low-level database connections to SQL-driven analysis and real dataset exploration.
 
 ### Purpose
 
-To provide hands-on experience with database connectivity, SQL execution inside Python scripts, and CSV-to-database ingestion workflows commonly used in ETL pipelines.
+To provide a complete introduction to database programming from Python, including SQL execution, DataFrame-based querying, and lightweight data pipelines built on SQLite.
 
 ### Concepts Addressed
 
-- SQLite fundamentals (connection, table creation, file-based DB behavior)
-- Reading CSV files into pandas DataFrames
-- Writing DataFrames into SQL tables using `to_sql()`
-- Running SQL queries using `pandas.read_sql()`
-- Performing insert operations through append
-- Counting records and validating incremental updates
+- SQLite database fundamentals (file-based relational storage)
+- Database connections and cursor-based SQL execution
+- Creating, reading, updating, and querying tables from Python
+- Using pandas as a SQL interface (`read_sql`, `to_sql`)
+- Jupyter SQL magic for interactive SQL analysis
+- Real dataset ingestion and exploration using SQLite
 
 ### Practical Use
 
-This module reflects real-world Data Engineering responsibilities such as extracting structured data, loading it into a relational system, and verifying transformations via SQL.
+This module mirrors real-world Data Engineering and Analytics tasks such as:
+- Loading structured datasets into relational databases
+- Executing SQL queries from Python
+- Validating transformations through record counts and filters
+- Combining SQL, pandas, and notebooks for exploratory data workflows
 
-### Exercises & Script
+### Module Structure
 
 ```
-09_staff_database_lab/
+09_sql_and_databases/
 │
+├── 01_sqlite_basics/
+│ ├── 00_sqlite_basics.py
+│ ├── sqlite_connection_and_cursor.py
+│ └── sql_magic.py
+│
+├── 02_sqlite_with_pandas/
+│ └── sqlite_insert_update_select_pandas.ipynb
+│
+├── 03_sql_magic_notebooks/
+│ └── sql_magic_sqlite_from_zero.ipynb
+│
+├── 04_real_projects/
+│ └── chicago_sqlite_python_learning_guide.ipynb
+│
+└── staff_lab/
 ├── INSTRUCTOR.csv
 └── lab_staff_database.py
 ```
 
 ### Module Summary
 
-Provides a complete mini-ETL workflow using SQLite as the storage layer and pandas as the querying interface — an essential foundation for real data-engineering pipelines.
+This module provides a full SQLite-based data workflow: from low-level SQL execution with cursors, to pandas-powered querying, to real-world notebook projects built on relational data — forming a strong foundation for Data Engineering and Analytics pipelines.
 
 ---
 
