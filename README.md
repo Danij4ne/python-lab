@@ -9,8 +9,6 @@
 ![Jupyter](https://img.shields.io/badge/Notebooks-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Python%20%7C%20SQL%20%7C%20Data%20Workflows-0A66C2?style=for-the-badge)
 ![Architecture](https://img.shields.io/badge/Architecture-9_Structured_Modules-8E44AD?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/danij4ne/python-lab?style=for-the-badge)
-![Commit Activity](https://img.shields.io/github/commit-activity/m/danij4ne/python-lab?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-1D8348?style=for-the-badge)
 
 Python Lab is a structured repository designed to consolidate foundational and intermediate Python programming concepts, including control flow, functions, data collections, object-oriented programming, exception handling, file operations, numerical computing with NumPy, tabular data processing with pandas,  HTTP/API workflows and local database interaction with SQLite.
