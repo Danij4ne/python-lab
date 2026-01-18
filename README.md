@@ -1,5 +1,13 @@
 # Python Lab
 
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/3fd87bf7-6c00-406b-b0d3-71ec894685ee"
+    alt="Python Lab"
+    style="max-width: 100%; height: auto;"
+  />
+</p>
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
