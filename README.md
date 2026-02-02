@@ -8,16 +8,17 @@
   />
 </p>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=databricks&logoColor=white)
-![Data Sources](https://img.shields.io/badge/Data%20Sources-APIs%20%26%20HTTP-0B3C5D?style=for-the-badge)
-![Jupyter](https://img.shields.io/badge/Notebooks-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Focus](https://img.shields.io/badge/Focus-Python%20%7C%20SQL%20%7C%20Data%20Workflows-0A66C2?style=for-the-badge)
-![Architecture](https://img.shields.io/badge/Architecture-9_Structured_Modules-8E44AD?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-1D8348?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=databricks&logoColor=white)
+![Data Sources](https://img.shields.io/badge/Data%20Sources-APIs%20%26%20HTTP-0B3C5D?style=flat)
+![Jupyter](https://img.shields.io/badge/Notebooks-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-Python%20%7C%20SQL%20%7C%20Data%20Workflows-0A66C2?style=flat)
+![Architecture](https://img.shields.io/badge/Architecture-9_Structured_Modules-8E44AD?style=flat)
+![License](https://img.shields.io/badge/License-MIT-1D8348?style=flat)
+
 
 Python Lab is a structured repository designed to consolidate foundational and intermediate Python programming concepts, including control flow, functions, data collections, object-oriented programming, exception handling, file operations, numerical computing with NumPy, tabular data processing with pandas,  HTTP/API workflows and local database interaction with SQLite.
 Each module contains standalone scripts and exercises that focus on a specific functional area of the Python programming ecosystem.
