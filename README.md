@@ -1,4 +1,4 @@
-# Python Lab
+# Python-Lab
 
 <p align="center">
   <img 
